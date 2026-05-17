@@ -272,15 +272,19 @@ Traffic entering/leaving the network.
 
 ## IDS
 
-Detects suspicious activity.
+It is a hardware device or software application that monitors a network for malicious activities, unauthorized access, or security policy violations.
 
-Does NOT automatically block.
+How It Works ?
+It acts like a security camera for your network. 
+It scans traffic, compare it against known threats, and sends alerts to security administrators.
+
 
 ## IPS
+It is a security tool that actively monitors your network for suspicious activity. 
+An IPS inspect traffic and automatically drops or blocks malicious packets in real time to prevent breaches and attacks.
 
-Detects AND blocks.
-
----
+Host-Based (HIDS) - installed on specific endpoints / machines to protext only that device.
+Network-based(NIPS) - Placed at strategic points in a network to monitor all incoming and outgoing traffic
 
 ## Types of IDS
 
